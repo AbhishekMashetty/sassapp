@@ -20,9 +20,13 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-
-h1,h2{
+h1{
 	font-family: 'Righteous', cursive;
+}
+
+h2{
+	
+	font-family: "Times New Roman", Times, serif;
 }
 p{
 	font-family: 'Hind Madurai', sans-serif;
@@ -67,7 +71,7 @@ p{
 		background-color: #00c6ff;
 	}
 }
-
+// Home Page Styles
 .home-callout {
 	color: white;
 	margin-top: -20px;
@@ -80,3 +84,6 @@ p{
 }
 
 
+.home-signup-links{
+	margin-top: 20px;
+}
