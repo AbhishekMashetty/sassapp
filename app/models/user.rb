@@ -5,4 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
    belongs_to :plans
+   has_one :profile
 end
